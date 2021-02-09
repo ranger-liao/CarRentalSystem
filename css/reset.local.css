@@ -1,0 +1,318 @@
+/*** box sizing border-box for all elements ***/
+*,
+*::before,
+*::after {
+    margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  color: inherit;
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+}
+figure {
+  margin: 0;
+}
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+p {
+  margin: 0;
+}
+cite {
+  font-style: normal;
+}
+fieldset {
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*** default css for Responsive Grid View ***/
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+} */
+
+/* Mobile-First Approach -default for small screens*/
+.col-1 {
+  max-width: 8.33%;
+}
+.col-2 {
+  max-width: 16.66%;
+}
+.col-3 {
+  max-width: 25%;
+}
+.col-4 {
+  max-width: 33.33%;
+}
+.col-5 {
+  max-width: 41.66%;
+}
+.col-6 {
+  max-width: 50%;
+}
+.col-7 {
+  max-width: 58.33%;
+}
+.col-8 {
+  max-width: 66.66%;
+}
+.col-9 {
+  max-width: 75%;
+}
+.col-10 {
+  max-width: 83.33%;
+}
+.col-11 {
+  max-width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For larger phones and tablets: */
+  .col-sm-1 {
+    max-width: 8.33%;
+  }
+  .col-sm-2 {
+    max-width: 16.66%;
+  }
+  .col-sm-3 {
+    max-width: 25%;
+  }
+  .col-sm-4 {
+    max-width: 33.33%;
+  }
+  .col-sm-5 {
+    max-width: 41.66%;
+  }
+  .col-sm-6 {
+    max-width: 50%;
+  }
+  .col-sm-7 {
+    max-width: 58.33%;
+  }
+  .col-sm-8 {
+    max-width: 66.66%;
+  }
+  .col-sm-9 {
+    max-width: 75%;
+  }
+  .col-sm-10 {
+    max-width: 83.33%;
+  }
+  .col-sm-11 {
+    max-width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For landscape tablets: */
+  .col-md-1 {
+    max-width: 8.33%;
+  }
+  .col-md-2 {
+    max-width: 16.66%;
+  }
+  .col-md-3 {
+    max-width: 25%;
+  }
+  .col-md-4 {
+    max-width: 33.33%;
+  }
+  .col-md-5 {
+    max-width: 41.66%;
+  }
+  .col-md-6 {
+    max-width: 50%;
+  }
+  .col-md-7 {
+    max-width: 58.33%;
+  }
+  .col-md-8 {
+    max-width: 66.66%;
+  }
+  .col-md-9 {
+    max-width: 75%;
+  }
+  .col-md-10 {
+    max-width: 83.33%;
+  }
+  .col-md-11 {
+    max-width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* For laptops and desktops: */
+  .col-lg-1 {
+    max-width: 8.33%;
+  }
+  .col-lg-2 {
+    max-width: 16.66%;
+  }
+  .col-lg-3 {
+    max-width: 25%;
+  }
+  .col-lg-4 {
+    max-width: 33.33%;
+  }
+  .col-lg-5 {
+    max-width: 41.66%;
+  }
+  .col-lg-6 {
+    max-width: 50%;
+  }
+  .col-lg-7 {
+    max-width: 58.33%;
+  }
+  .col-lg-8 {
+    max-width: 66.66%;
+  }
+  .col-lg-9 {
+    max-width: 75%;
+  }
+  .col-lg-10 {
+    max-width: 83.33%;
+  }
+  .col-lg-11 {
+    max-width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For large laptops and desktops: */
+  .col-xl-1 {
+    max-width: 8.33%;
+  }
+  .col-xl-2 {
+    max-width: 16.66%;
+  }
+  .col-xl-3 {
+    max-width: 25%;
+  }
+  .col-xl-4 {
+    max-width: 33.33%;
+  }
+  .col-xl-5 {
+    max-width: 41.66%;
+  }
+  .col-xl-6 {
+    max-width: 50%;
+  }
+  .col-xl-7 {
+    max-width: 58.33%;
+  }
+  .col-xl-8 {
+    max-width: 66.66%;
+  }
+  .col-xl-9 {
+    max-width: 75%;
+  }
+  .col-xl-10 {
+    max-width: 83.33%;
+  }
+  .col-xl-11 {
+    max-width: 91.66%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+/*** end of CSS - Responsive Grid View ***/
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {
+    background-color: #4caf50;
+} /* Green */
+.success:hover {
+    background-color: #46a049;
+}
+
+.info {
+    background-color: #2196f3;
+} /* Blue */
+.info:hover {
+    background: #0b7dda;
+}
+
+.warning {
+    background-color: #ff9800;
+} /* Orange */
+.warning:hover {
+    background: #e68a00;
+}
+
+.danger {
+    background-color: #f44336;
+} /* Red */
+.danger:hover {
+    background: #da190b;
+}
+
+.default {
+    background-color: #e7e7e7;
+    color: black;
+} /* Gray */
+.default:hover {
+    background: #ddd;
+}

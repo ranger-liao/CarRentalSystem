@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductsRoot>
+  <Products>
+    <ProductID>1</ProductID>
+    <Category>sedan</Category>
+    <Brand>Toyota</Brand>
+    <Model>Camry</Model>
+    <ModelYear>2013</ModelYear>
+    <Mileage>85364 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>240</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>Camry.jpg</CarImage>
+    <Description>Crafted Sporty Seats. Google Assistant. Sculpted Body. LED Parabola Headlamps. USB Video Playback.</Description>
+  </Products>
+  <Products>
+    <ProductID>2</ProductID>
+    <Category>sedan</Category>
+    <Brand>Nissan</Brand>
+    <Model>Xtrail</Model>
+    <ModelYear>2015</ModelYear>
+    <Mileage>36782 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>7</Seats>
+    <PricePerDay>360</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>X-trail.jpg</CarImage>
+    <Description>Open up to a bigger, bolder world, and get there in a spacious Nissan SUV.</Description>
+  </Products>
+  <Products>
+    <ProductID>3</ProductID>
+    <Category>sedan</Category>
+    <Brand>Volkswagen</Brand>
+    <Model>Golf</Model>
+    <ModelYear>2017</ModelYear>
+    <Mileage>13586 kms</Mileage>
+    <FuelType>CNG</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>180</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>Golf.jpg</CarImage>
+    <Description>It's Never Been More Fun To Drive A Golf. Equipped With The Latest Technology and Advance Safety Features.</Description>
+  </Products>
+  <Products>
+    <ProductID>4</ProductID>
+    <Category>sedan</Category>
+    <Brand>Honda</Brand>
+    <Model>Civic</Model>
+    <ModelYear>2018</ModelYear>
+    <Mileage>9586 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>220</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>Civic.jpg</CarImage>
+    <Description>The Honda Civic Sedan takes sports styling, performance, technology and fuel efficiency to a whole new level.</Description>
+  </Products>
+  <Products>
+    <ProductID>5</ProductID>
+    <Category>SUV</Category>
+    <Brand>Holden</Brand>
+    <Model>Captiva</Model>
+    <ModelYear>2018</ModelYear>
+    <Mileage>9866 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>350</PricePerDay>
+    <Availability>False</Availability>
+    <CarImage>Captiva.jpg</CarImage>
+    <Description>The petrol Captiva LS is available in front-wheel drive, five-seat form with a six-speed manual gearbox.</Description>
+  </Products>
+  <Products>
+    <ProductID>6</ProductID>
+    <Category>SUV</Category>
+    <Brand>Subaru</Brand>
+    <Model>Jimny</Model>
+    <ModelYear>2018</ModelYear>
+    <Mileage>15051 kms</Mileage>
+    <FuelType>Dissel</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>335</PricePerDay>
+    <Availability>False</Availability>
+    <CarImage>Jimny.jpg</CarImage>
+    <Description>Jimny has always featured a ladder frame that offers a solid foundation for serious off-road performance.</Description>
+  </Products>
+  <Products>
+    <ProductID>7</ProductID>
+    <Category>sedan</Category>
+    <Brand>BMW</Brand>
+    <Model>320i</Model>
+    <ModelYear>2014</ModelYear>
+    <Mileage>8545 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>270</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>320i.jpg</CarImage>
+    <Description>Surround View Camera. ConnectedDrive. Satellite Navigation. TwinPower Turbo. Real-Time Traffic Info.</Description>
+   </Products>
+  <Products>
+    <ProductID>8</ProductID>
+    <Category>sedan</Category>
+    <Brand>Mercedes</Brand>
+    <Model>GLC</Model>
+    <ModelYear>2017</ModelYear>
+    <Mileage>10512 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>340</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>GLC.jpg</CarImage>
+    <Description>For performance, reliability, features and safety, the GLC class is world class.</Description>
+  </Products>
+  <Products>
+    <ProductID>9</ProductID>
+    <Category>sedan</Category>
+    <Brand>Hyundai</Brand>
+    <Model>Sonata</Model>
+    <ModelYear>2016</ModelYear>
+    <Mileage>8154 kms</Mileage>
+    <FuelType>Petrol</FuelType>
+    <Seats>5</Seats>
+    <PricePerDay>270</PricePerDay>
+    <Availability>True</Availability>
+    <CarImage>Sonata.jpg</CarImage>
+    <Description>The 2016 Hyundai Sonata comes loaded with plenty of standard features inside and out.</Description>
+  </Products>
+  <Products>
+    <ProductID>10</ProductID>
+    <Category>SUV</Category>
+    <Brand>Jeep</Brand>
+    <Model>Cherokee</Model>
+    <ModelYear>2016</ModelYear>
+    <Mileage>14251 kms</Mileage>
+    <FuelType>Dissel</FuelType>
+    <Seats>7</Seats>
+    <PricePerDay>360</PricePerDay>
+    <Availability>False</Availability>
+    <CarImage>Cherokee.jpg</CarImage>
+    <Description>The Cherokee SUV Takes The Authenticity And Craftsmanship Of Traditional Jeep Design.</Description>
+  </Products>
+</ProductsRoot>
